@@ -1,0 +1,21 @@
+{
+  "name": "autorestart",
+  "version": "0.0.1",
+  "description": "Automatically restart process when it quits",
+  "main": "./dist/index.js",
+  "bin": "./dist/cli.js",
+  "repository": "git@github.com:dimitarnestorov/autorestart.git",
+  "author": "Dimitar Nestorov <opensource@dimitarnestorov.com>",
+  "license": "MIT",
+	"scripts": {
+    "prepublishOnly": "yarn run build",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.2",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "cross-spawn": "^6.0.5"
+  }
+}

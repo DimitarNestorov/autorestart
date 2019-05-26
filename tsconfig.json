@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noImplicitAny": true,
+		"declaration": true,
+		"lib": ["es6"],
+		"target": "esnext",
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"outDir": "dist",
+	},
+	"include": [
+		"src",
+	],
+}
