@@ -9,6 +9,7 @@
 	"license": "MIT",
 	"scripts": {
 		"prepublishOnly": "yarn run build",
+		"test": "yarn run build",
 		"build": "tsc"
 	},
 	"devDependencies": {
